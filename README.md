@@ -8,6 +8,16 @@ Ce projet est un constructeur d'interface utilisateur en Drag & Drop développé
 ✅ Modification en temps réel des propriétés des composants (texte, couleurs, dimensions, etc.)
 ✅ Sélection et suppression d’un composant spécifique
 ✅ Exportation automatique du code HTML/CSS pour réutilisation
+## exemple:
+
+## 🎥 Démo en vidéo 
+https://github.com/user-attachments/assets/36e4fcab-7c84-4e4b-9c27-e0ca873e89ad
+
+
+
+
+#### Résultat du code:
+![image](https://github.com/user-attachments/assets/434918ec-98ed-4c3b-826f-32c3e032255c)
 
 ## 🚀 Installation et exécution  
 cd website-builder
