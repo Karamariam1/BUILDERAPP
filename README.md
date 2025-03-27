@@ -1,64 +1,23 @@
-# website-builder
+# 🎨 Drag & Drop UI Builder avec Vue.js
 
-This template should help get you started developing with Vue 3 in Vite.
+Ce projet est un constructeur d'interface utilisateur en Drag & Drop développé avec Vue.js. Il permet aux utilisateurs d'ajouter, de modifier, de déplacer et de supprimer des composants visuels (texte, images, boutons) directement depuis une interface intuitive.
 
-## Recommended IDE Setup
+✨ Fonctionnalités
+✅ Ajout dynamique de composants (texte, image, bouton)
+✅ Glisser-déposer des éléments sur la zone de travail
+✅ Modification en temps réel des propriétés des composants (texte, couleurs, dimensions, etc.)
+✅ Sélection et suppression d’un composant spécifique
+✅ Exportation automatique du code HTML/CSS pour réutilisation
 
-[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur).
+## 🚀 Installation et exécution  
+cd website-builder
 
-## Type Support for `.vue` Imports in TS
-
-TypeScript cannot handle type information for `.vue` imports by default, so we replace the `tsc` CLI with `vue-tsc` for type checking. In editors, we need [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) to make the TypeScript language service aware of `.vue` types.
-
-## Customize configuration
-
-See [Vite Configuration Reference](https://vite.dev/config/).
-
-## Project Setup
-
-```sh
+## Installer les dépendances
 npm install
-```
 
-### Compile and Hot-Reload for Development
-
-```sh
+## Lancer le projet
 npm run dev
-```
 
-### Type-Check, Compile and Minify for Production
+### Accéder à l'interface
+Ouvrir http://localhost:5173 dans un navigateur
 
-```sh
-npm run build
-```
-
-### Run Unit Tests with [Vitest](https://vitest.dev/)
-
-```sh
-npm run test:unit
-```
-
-### Run End-to-End Tests with [Playwright](https://playwright.dev)
-
-```sh
-# Install browsers for the first run
-npx playwright install
-
-# When testing on CI, must build the project first
-npm run build
-
-# Runs the end-to-end tests
-npm run test:e2e
-# Runs the tests only on Chromium
-npm run test:e2e -- --project=chromium
-# Runs the tests of a specific file
-npm run test:e2e -- tests/example.spec.ts
-# Runs the tests in debug mode
-npm run test:e2e -- --debug
-```
-
-### Lint with [ESLint](https://eslint.org/)
-
-```sh
-npm run lint
-```
